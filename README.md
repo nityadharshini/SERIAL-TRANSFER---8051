@@ -11,6 +11,8 @@ Personal computer with Keil software
 **PROGRAM:**
 
 **(i)	Serial port transfer a character A**
+
+
 ORG 00H 
 MOV TMOD, #20H 
 MOV TH1, #0FCH 
@@ -23,6 +25,8 @@ END
 
 
 **(ii)	Serial port to Transfer a Message**
+
+
 
 #include<reg51.h>
 void main(void)
