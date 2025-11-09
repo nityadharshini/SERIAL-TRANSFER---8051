@@ -21,14 +21,14 @@ MOV SBUF, #'B'
 WAIT: JNB TI, WAIT
 CLR TI
 END
+
 **(ii)	Serial port to Transfer a Message**
 
- TMOD = 0x20;   // TIMER 1, MODE 2
-    TH1  = 0xFC;
-    SCON = 0x40;
-    TR1  = 1;
-
-    for (i = 0; i < 17; i++)
+TMOD = 0x20;   // TIMER 1, MODE 2
+TH1  = 0xFC;
+SCON = 0x40;
+TR1  = 1;
+for (i = 0; i < 17; i++)
     {
         SBUF = msg[i];
         while (TI == 0);
@@ -37,6 +37,7 @@ END
 
     while(1);
 }
+
 **OUTPUT:**
 ![WhatsApp Image 2025-11-09 at 13 29 55_391c3bbd](https://github.com/user-attachments/assets/f2f5c1c8-a03d-4e8e-a305-f3e708d469b8)
 
