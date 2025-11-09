@@ -56,11 +56,14 @@ while(1);
 
  
 **OUTPUT:**
-<br>
-<br>
-<br>
-<br>
-<br>
+![WhatsApp Image 2025-11-09 at 13 29 55_391c3bbd](https://github.com/user-attachments/assets/f2f5c1c8-a03d-4e8e-a305-f3e708d469b8)
+
+![WhatsApp Image 2025-11-09 at 13 30 29_5f2c113b](https://github.com/user-attachments/assets/e9a0087f-d311-402a-9377-58b5773124b3)
+
+
+
+
+
 
 **Result:**
 
